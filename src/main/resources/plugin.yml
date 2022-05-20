@@ -1,0 +1,6 @@
+main: pl.virtual.api.ServerPlugin
+version: 2.0
+author: Virtual343
+name: DarkHard_Core
+depend: ['BungeeTabListPlus']
+api-version: 1.13

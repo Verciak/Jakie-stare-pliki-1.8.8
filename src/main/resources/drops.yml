@@ -1,0 +1,165 @@
+random-drops:
+  diament:
+    chance: 2.8
+    exp: 9
+    fortune: true
+    message: '&7Wydropiles: &4&lDIAMENT &f({AMOUNT}szt) &6+{EXP}'
+    biome: []
+    tool: [DIAMOND_PICKAXE, IRON_PICKAXE]
+    height:
+      min: 0
+      max: 50
+    amount:
+      min: 1
+      max: 3
+    drop:
+      what: DIAMOND
+      from: STONE
+  szmaragd:
+    chance: 2.6
+    exp: 11
+    fortune: true
+    message: '&7Wydropiles: &4&lSZMARAGD &f({AMOUNT}szt) &6+{EXP}'
+    biome: []
+    tool: [DIAMOND_PICKAXE, IRON_PICKAXE]
+    height:
+      min: 0
+      max: 50
+    amount:
+      min: 1
+      max: 3
+    drop:
+      what: EMERALD
+      from: STONE
+  zloto:
+    chance: 1.8
+    exp: 6
+    fortune: true
+    message: '&7Wydropiles: &4&lZLOTO &f({AMOUNT}szt) &6+{EXP}'
+    biome: []
+    tool: [DIAMOND_PICKAXE, IRON_PICKAXE]
+    height:
+      min: 0
+      max: 50
+    amount:
+      min: 1
+      max: 3
+    drop:
+      what: GOLD_INGOT
+      from: STONE
+  zelazo:
+    chance: 2.0
+    exp: 6
+    fortune: true
+    message: '&7Wydropiles: &4&lZELAZO &f({AMOUNT}szt) &6+{EXP}'
+    biome: []
+    tool: [DIAMOND_PICKAXE, IRON_PICKAXE, STONE_PICKAXE]
+    height:
+      min: 0
+      max: 60
+    amount:
+      min: 1
+      max: 3
+    drop:
+      what: IRON_INGOT
+      from: STONE
+  obsydian:
+    chance: 1.5
+    exp: 9
+    fortune: true
+    message: '&7Wydropiles: &4&lOBSIDIAN &f({AMOUNT}szt) &6+{EXP}'
+    biome: []
+    tool: [DIAMOND_PICKAXE, IRON_PICKAXE]
+    height:
+      min: 0
+      max: 50
+    amount:
+      min: 1
+      max: 3
+    drop:
+      what: OBSIDIAN
+      from: STONE
+  wegiel:
+    chance: 5.0
+    exp: 2
+    fortune: true
+    message: '&7Wydropiles: &4&lWEGIEL &f({AMOUNT}szt) &6+{EXP}'
+    biome: []
+    tool: [DIAMOND_PICKAXE, IRON_PICKAXE, STONE_PICKAXE]
+    height:
+      min: 0
+      max: 60
+    amount:
+      min: 1
+      max: 3
+    drop:
+      what: COAL
+      from: STONE
+  ksiaza:
+    chance: 1.1
+    exp: 11
+    fortune: true
+    message: '&7Wydropiles: &4&lKSIAZKE &f({AMOUNT}szt) &6+{EXP}'
+    biome: []
+    tool: [DIAMOND_PICKAXE, IRON_PICKAXE, STONE_PICKAXE]
+    height:
+      min: 0
+      max: 60
+    amount:
+      min: 1
+      max: 3
+    drop:
+      what: BOOK
+      from: STONE
+  piasek:
+    chance: 2.3
+    exp: 2
+    fortune: true
+    message: '&7Wydropiles: &4&lPIASEK &f({AMOUNT}szt) &6+{EXP}'
+    biome: []
+    tool: [DIAMOND_PICKAXE, IRON_PICKAXE, STONE_PICKAXE]
+    height:
+      min: 0
+      max: 60
+    amount:
+      min: 1
+      max: 3
+    drop:
+      what: SAND
+      from: STONE
+  proch:
+    chance: 1.6
+    exp: 11
+    fortune: true
+    message: '&7Wydropiles: &4&lPROCH &f({AMOUNT}szt) &6+{EXP}'
+    biome: []
+    tool: [DIAMOND_PICKAXE, IRON_PICKAXE]
+    height:
+      min: 0
+      max: 40
+    amount:
+      min: 1
+      max: 3
+    drop:
+      what: SULPHUR
+      from: STONE
+  perla:
+    chance: 0.05
+    exp: 16
+    fortune: false
+    message: '&7Wydropiles: &4&lPERLE &f({AMOUNT}szt) &6+{EXP}'
+    biome: []
+    tool: [DIAMOND_PICKAXE, IRON_PICKAXE]
+    height:
+      min: 0
+      max: 40
+    amount:
+      min: 1
+      max: 1
+    drop:
+      what: ENDER_PEARL
+      from: STONE
+cancel-drops: [GOLE_ORE, IRON_ORE, COAL_ORE, LAPIS_ORE, DIAMOND_ORE, REDSTONE_ORE, EMERELD_ORE]
+exp-drops:
+  STONE: 7
+  OBSIDIAN: 14
